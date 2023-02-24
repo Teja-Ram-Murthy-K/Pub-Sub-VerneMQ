@@ -1,0 +1,47 @@
+2023/02/16-23:23:57.558289 174287000                        Version: 2.0.35 (open source)
+2023/02/16-23:23:57.558301 174287000             Options.comparator: leveldb.InternalKeyComparator
+2023/02/16-23:23:57.558304 174287000      Options.create_if_missing: 1
+2023/02/16-23:23:57.558307 174287000        Options.error_if_exists: 0
+2023/02/16-23:23:57.558310 174287000        Options.paranoid_checks: 0
+2023/02/16-23:23:57.558313 174287000     Options.verify_compactions: 1
+2023/02/16-23:23:57.558315 174287000                    Options.env: 0x6000004cc000
+2023/02/16-23:23:57.558318 174287000               Options.info_log: 0x6000036d5240
+2023/02/16-23:23:57.558321 174287000      Options.write_buffer_size: 35268559
+2023/02/16-23:23:57.558323 174287000         Options.max_open_files: 1000
+2023/02/16-23:23:57.558326 174287000            Options.block_cache: 0x10f035a00
+2023/02/16-23:23:57.558329 174287000             Options.block_size: 4096
+2023/02/16-23:23:57.558331 174287000       Options.block_size_steps: 16
+2023/02/16-23:23:57.558334 174287000 Options.block_restart_interval: 16
+2023/02/16-23:23:57.558337 174287000            Options.compression: 1
+2023/02/16-23:23:57.558339 174287000          Options.filter_policy: leveldb.BuiltinBloomFilter2
+2023/02/16-23:23:57.558342 174287000              Options.is_repair: false
+2023/02/16-23:23:57.558345 174287000         Options.is_internal_db: false
+2023/02/16-23:23:57.558347 174287000      Options.total_leveldb_mem: 6012954214
+2023/02/16-23:23:57.558350 174287000  Options.block_cache_threshold: 33554432
+2023/02/16-23:23:57.558353 174287000  Options.limited_developer_mem: false
+2023/02/16-23:23:57.558355 174287000              Options.mmap_size: 0
+2023/02/16-23:23:57.558358 174287000       Options.delete_threshold: 1000
+2023/02/16-23:23:57.558360 174287000       Options.fadvise_willneed: false
+2023/02/16-23:23:57.558363 174287000      Options.tiered_slow_level: 0
+2023/02/16-23:23:57.558366 174287000     Options.tiered_fast_prefix: ./data/swc_meta/meta10
+2023/02/16-23:23:57.558368 174287000     Options.tiered_slow_prefix: ./data/swc_meta/meta10
+2023/02/16-23:23:57.558371 174287000                         crc32c: software
+2023/02/16-23:23:57.558373 174287000   Options.cache_object_warming: true
+2023/02/16-23:23:57.558376 174287000        Options.ExpiryActivated: false
+2023/02/16-23:23:57.558379 174287000          Options.expiry_module: NULL
+2023/02/16-23:23:57.558381 174287000                File cache size: 505144683
+2023/02/16-23:23:57.558384 174287000               Block cache size: 507241835
+2023/02/16-23:23:57.558519 174287000 Recovering log #38
+2023/02/16-23:23:57.558751 174287000 Level-0 table #40: started
+2023/02/16-23:23:57.558979 174287000 Level-0 table #40: 30628 bytes, 297 keys OK
+2023/02/16-23:23:57.559136 171f87000 Finalize level: 0, grooming 1
+2023/02/16-23:23:57.559144 17212b000 Compacting 4@0 + 0@1 files
+2023/02/16-23:23:57.559347 174287000 Delete type=0 #38
+2023/02/16-23:23:57.559520 174287000 Delete type=3 #36
+2023/02/16-23:23:57.561263 17212b000 Generated table #42: 2 keys, 479 bytes
+2023/02/16-23:23:57.561268 17212b000 compacted to: files[ 4 2 0 0 0 0 0 ]
+2023/02/16-23:23:57.561271 17212b000 Compacted 4@0 + 0@1 files => 479 bytes
+2023/02/16-23:23:57.561329 17212b000 Delete type=2 #40
+2023/02/16-23:23:57.561367 17212b000 Delete type=2 #34
+2023/02/16-23:23:57.561404 17212b000 Delete type=2 #37
+2023/02/16-23:23:57.561438 17212b000 Delete type=2 #31

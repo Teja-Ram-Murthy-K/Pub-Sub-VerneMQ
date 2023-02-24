@@ -1,0 +1,2 @@
+2023-02-18 11:08:12.174 [info] <0.66.0> SIGTERM received - shutting down
+2023-02-18 11:08:12.231 [info] <0.89.0> alarm_handler: {clear,system_memory_high_watermark}

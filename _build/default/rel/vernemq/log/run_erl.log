@@ -1,0 +1,8 @@
+run_erl [8275] Thu Feb 16 23:23:55 2023
+Args before exec of shell:
+run_erl [8275] Thu Feb 16 23:23:55 2023
+argv[0] = sh
+run_erl [8275] Thu Feb 16 23:23:55 2023
+argv[1] = -c
+run_erl [8275] Thu Feb 16 23:23:55 2023
+argv[2] = exec /Users/tejarammurthykarri/Desktop/vernemq/_build/default/rel/vernemq/bin/vernemq console

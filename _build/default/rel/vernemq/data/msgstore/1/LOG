@@ -1,0 +1,36 @@
+2023/02/16-23:23:57.702794 174287000                        Version: 2.0.35 (open source)
+2023/02/16-23:23:57.702809 174287000             Options.comparator: leveldb.InternalKeyComparator
+2023/02/16-23:23:57.702814 174287000      Options.create_if_missing: 1
+2023/02/16-23:23:57.702817 174287000        Options.error_if_exists: 0
+2023/02/16-23:23:57.702820 174287000        Options.paranoid_checks: 0
+2023/02/16-23:23:57.702822 174287000     Options.verify_compactions: 1
+2023/02/16-23:23:57.702825 174287000                    Options.env: 0x6000004cc000
+2023/02/16-23:23:57.702828 174287000               Options.info_log: 0x600003685bc0
+2023/02/16-23:23:57.702830 174287000      Options.write_buffer_size: 61725387
+2023/02/16-23:23:57.702833 174287000         Options.max_open_files: 1000
+2023/02/16-23:23:57.702836 174287000            Options.block_cache: 0x102823e00
+2023/02/16-23:23:57.702838 174287000             Options.block_size: 4096
+2023/02/16-23:23:57.702841 174287000       Options.block_size_steps: 16
+2023/02/16-23:23:57.702844 174287000 Options.block_restart_interval: 16
+2023/02/16-23:23:57.702846 174287000            Options.compression: 1
+2023/02/16-23:23:57.702849 174287000          Options.filter_policy: leveldb.BuiltinBloomFilter2
+2023/02/16-23:23:57.702851 174287000              Options.is_repair: false
+2023/02/16-23:23:57.702854 174287000         Options.is_internal_db: false
+2023/02/16-23:23:57.702856 174287000      Options.total_leveldb_mem: 6012954214
+2023/02/16-23:23:57.702859 174287000  Options.block_cache_threshold: 33554432
+2023/02/16-23:23:57.702861 174287000  Options.limited_developer_mem: false
+2023/02/16-23:23:57.702863 174287000              Options.mmap_size: 0
+2023/02/16-23:23:57.702866 174287000       Options.delete_threshold: 1000
+2023/02/16-23:23:57.702868 174287000       Options.fadvise_willneed: false
+2023/02/16-23:23:57.702871 174287000      Options.tiered_slow_level: 0
+2023/02/16-23:23:57.702873 174287000     Options.tiered_fast_prefix: ./data/msgstore/1
+2023/02/16-23:23:57.702876 174287000     Options.tiered_slow_prefix: ./data/msgstore/1
+2023/02/16-23:23:57.702878 174287000                         crc32c: software
+2023/02/16-23:23:57.702881 174287000   Options.cache_object_warming: true
+2023/02/16-23:23:57.702883 174287000        Options.ExpiryActivated: false
+2023/02/16-23:23:57.702885 174287000          Options.expiry_module: NULL
+2023/02/16-23:23:57.702888 174287000                File cache size: 379929923
+2023/02/16-23:23:57.702890 174287000               Block cache size: 382027075
+2023/02/16-23:23:57.703172 174287000 Recovering log #25
+2023/02/16-23:23:57.703526 174287000 Delete type=3 #24
+2023/02/16-23:23:57.703583 174287000 Delete type=0 #25

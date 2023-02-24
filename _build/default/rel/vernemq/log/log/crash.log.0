@@ -1,0 +1,856 @@
+2023-02-15 01:04:15 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_swc_store_sup_meta1}
+     Context:    start_error
+     Reason:     {db_open,"IO error: lock ./data/swc_meta/meta1/LOCK: Resource temporarily unavailable"}
+     Offender:   [{pid,undefined},{id,{vmq_swc_db_leveldb,meta1}},{mfargs,{vmq_swc_db_leveldb,start_link,[{swc_config,{'VerneMQ@127.0.0.1',<<239,174,60,145,53,39,215,115,159,70,176,124,80,197,199,248,97,198,2,60>>},meta1,vmq_swc_db_meta1,vmq_swc_db_leveldb,vmq_swc_store_meta1,vmq_swc_store_r_o_w_meta1,vmq_swc_store_batcher_meta1,vmq_swc_group_membership_meta1,vmq_swc_edist_srv},[]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-15 01:04:15 =CRASH REPORT====
+  crasher:
+    initial call: vmq_swc_db_leveldb:init/1
+    pid: <0.228.0>
+    registered_name: []
+    exception exit: {{db_open,"IO error: lock ./data/swc_meta/meta1/LOCK: Resource temporarily unavailable"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,835}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_swc_store_sup_meta1,vmq_swc_sup,<0.221.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.227.0>,{shutdown,{failed_to_start_child,{vmq_swc_db_leveldb,meta1},{db_open,"IO error: lock ./data/swc_meta/meta1/LOCK: Resource temporarily unavailable"}}}}]
+    links: []
+    dictionary: [{rand_seed,{#{jump => #Fun<rand.3.34006561>,max => 288230376151711743,next => #Fun<rand.5.34006561>,type => exsplus},[145823982531193095|26162596966677006]}}]
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 53213
+  neighbours:
+2023-02-15 01:05:15 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_swc_store_sup_meta2}
+     Context:    start_error
+     Reason:     {db_open,"IO error: lock ./data/swc_meta/meta2/LOCK: Resource temporarily unavailable"}
+     Offender:   [{pid,undefined},{id,{vmq_swc_db_leveldb,meta2}},{mfargs,{vmq_swc_db_leveldb,start_link,[{swc_config,{'VerneMQ@127.0.0.1',<<239,174,60,145,53,39,215,115,159,70,176,124,80,197,199,248,97,198,2,60>>},meta2,vmq_swc_db_meta2,vmq_swc_db_leveldb,vmq_swc_store_meta2,vmq_swc_store_r_o_w_meta2,vmq_swc_store_batcher_meta2,vmq_swc_group_membership_meta2,vmq_swc_edist_srv},[]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-15 01:05:15 =CRASH REPORT====
+  crasher:
+    initial call: vmq_swc_db_leveldb:init/1
+    pid: <0.332.0>
+    registered_name: []
+    exception exit: {{db_open,"IO error: lock ./data/swc_meta/meta2/LOCK: Resource temporarily unavailable"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,835}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_swc_store_sup_meta2,vmq_swc_sup,<0.221.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.331.0>]
+    dictionary: [{rand_seed,{#{jump => #Fun<rand.3.34006561>,max => 288230376151711743,next => #Fun<rand.5.34006561>,type => exsplus},[73245176323325298|242870406333316640]}}]
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 53110
+  neighbours:
+2023-02-15 01:06:15 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_swc_store_sup_meta3}
+     Context:    start_error
+     Reason:     {db_open,"IO error: lock ./data/swc_meta/meta3/LOCK: Resource temporarily unavailable"}
+     Offender:   [{pid,undefined},{id,{vmq_swc_db_leveldb,meta3}},{mfargs,{vmq_swc_db_leveldb,start_link,[{swc_config,{'VerneMQ@127.0.0.1',<<239,174,60,145,53,39,215,115,159,70,176,124,80,197,199,248,97,198,2,60>>},meta3,vmq_swc_db_meta3,vmq_swc_db_leveldb,vmq_swc_store_meta3,vmq_swc_store_r_o_w_meta3,vmq_swc_store_batcher_meta3,vmq_swc_group_membership_meta3,vmq_swc_edist_srv},[]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-15 01:06:15 =CRASH REPORT====
+  crasher:
+    initial call: vmq_swc_db_leveldb:init/1
+    pid: <0.357.0>
+    registered_name: []
+    exception exit: {{db_open,"IO error: lock ./data/swc_meta/meta3/LOCK: Resource temporarily unavailable"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,835}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_swc_store_sup_meta3,vmq_swc_sup,<0.221.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.356.0>]
+    dictionary: [{rand_seed,{#{jump => #Fun<rand.3.34006561>,max => 288230376151711743,next => #Fun<rand.5.34006561>,type => exsplus},[1598449302221782|170946777626624884]}}]
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 53110
+  neighbours:
+2023-02-15 01:07:15 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_swc_store_sup_meta4}
+     Context:    start_error
+     Reason:     {db_open,"IO error: lock ./data/swc_meta/meta4/LOCK: Resource temporarily unavailable"}
+     Offender:   [{pid,undefined},{id,{vmq_swc_db_leveldb,meta4}},{mfargs,{vmq_swc_db_leveldb,start_link,[{swc_config,{'VerneMQ@127.0.0.1',<<239,174,60,145,53,39,215,115,159,70,176,124,80,197,199,248,97,198,2,60>>},meta4,vmq_swc_db_meta4,vmq_swc_db_leveldb,vmq_swc_store_meta4,vmq_swc_store_r_o_w_meta4,vmq_swc_store_batcher_meta4,vmq_swc_group_membership_meta4,vmq_swc_edist_srv},[]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-15 01:07:15 =CRASH REPORT====
+  crasher:
+    initial call: vmq_swc_db_leveldb:init/1
+    pid: <0.377.0>
+    registered_name: []
+    exception exit: {{db_open,"IO error: lock ./data/swc_meta/meta4/LOCK: Resource temporarily unavailable"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,835}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_swc_store_sup_meta4,vmq_swc_sup,<0.221.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.376.0>]
+    dictionary: [{rand_seed,{#{jump => #Fun<rand.3.34006561>,max => 288230376151711743,next => #Fun<rand.5.34006561>,type => exsplus},[72916720425030674|241491657529405630]}}]
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 53110
+  neighbours:
+2023-02-15 01:08:15 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_swc_store_sup_meta5}
+     Context:    start_error
+     Reason:     {db_open,"IO error: lock ./data/swc_meta/meta5/LOCK: Resource temporarily unavailable"}
+     Offender:   [{pid,undefined},{id,{vmq_swc_db_leveldb,meta5}},{mfargs,{vmq_swc_db_leveldb,start_link,[{swc_config,{'VerneMQ@127.0.0.1',<<239,174,60,145,53,39,215,115,159,70,176,124,80,197,199,248,97,198,2,60>>},meta5,vmq_swc_db_meta5,vmq_swc_db_leveldb,vmq_swc_store_meta5,vmq_swc_store_r_o_w_meta5,vmq_swc_store_batcher_meta5,vmq_swc_group_membership_meta5,vmq_swc_edist_srv},[]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-15 01:08:15 =CRASH REPORT====
+  crasher:
+    initial call: vmq_swc_db_leveldb:init/1
+    pid: <0.388.0>
+    registered_name: []
+    exception exit: {{db_open,"IO error: lock ./data/swc_meta/meta5/LOCK: Resource temporarily unavailable"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,835}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_swc_store_sup_meta5,vmq_swc_sup,<0.221.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.387.0>]
+    dictionary: [{rand_seed,{#{jump => #Fun<rand.3.34006561>,max => 288230376151711743,next => #Fun<rand.5.34006561>,type => exsplus},[216411237151233502|97432770131296602]}}]
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 53110
+  neighbours:
+2023-02-15 01:09:15 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_swc_store_sup_meta6}
+     Context:    start_error
+     Reason:     {db_open,"IO error: lock ./data/swc_meta/meta6/LOCK: Resource temporarily unavailable"}
+     Offender:   [{pid,undefined},{id,{vmq_swc_db_leveldb,meta6}},{mfargs,{vmq_swc_db_leveldb,start_link,[{swc_config,{'VerneMQ@127.0.0.1',<<239,174,60,145,53,39,215,115,159,70,176,124,80,197,199,248,97,198,2,60>>},meta6,vmq_swc_db_meta6,vmq_swc_db_leveldb,vmq_swc_store_meta6,vmq_swc_store_r_o_w_meta6,vmq_swc_store_batcher_meta6,vmq_swc_group_membership_meta6,vmq_swc_edist_srv},[]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-15 01:09:15 =CRASH REPORT====
+  crasher:
+    initial call: vmq_swc_db_leveldb:init/1
+    pid: <0.398.0>
+    registered_name: []
+    exception exit: {{db_open,"IO error: lock ./data/swc_meta/meta6/LOCK: Resource temporarily unavailable"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,835}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_swc_store_sup_meta6,vmq_swc_sup,<0.221.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.397.0>]
+    dictionary: [{rand_seed,{#{jump => #Fun<rand.3.34006561>,max => 288230376151711743,next => #Fun<rand.5.34006561>,type => exsplus},[76249205116977751|239840491580613252]}}]
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 53110
+  neighbours:
+2023-02-15 01:10:15 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_swc_store_sup_meta7}
+     Context:    start_error
+     Reason:     {db_open,"IO error: lock ./data/swc_meta/meta7/LOCK: Resource temporarily unavailable"}
+     Offender:   [{pid,undefined},{id,{vmq_swc_db_leveldb,meta7}},{mfargs,{vmq_swc_db_leveldb,start_link,[{swc_config,{'VerneMQ@127.0.0.1',<<239,174,60,145,53,39,215,115,159,70,176,124,80,197,199,248,97,198,2,60>>},meta7,vmq_swc_db_meta7,vmq_swc_db_leveldb,vmq_swc_store_meta7,vmq_swc_store_r_o_w_meta7,vmq_swc_store_batcher_meta7,vmq_swc_group_membership_meta7,vmq_swc_edist_srv},[]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-15 01:10:15 =CRASH REPORT====
+  crasher:
+    initial call: vmq_swc_db_leveldb:init/1
+    pid: <0.412.0>
+    registered_name: []
+    exception exit: {{db_open,"IO error: lock ./data/swc_meta/meta7/LOCK: Resource temporarily unavailable"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,835}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_swc_store_sup_meta7,vmq_swc_sup,<0.221.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.411.0>]
+    dictionary: [{rand_seed,{#{jump => #Fun<rand.3.34006561>,max => 288230376151711743,next => #Fun<rand.5.34006561>,type => exsplus},[220401830841247858|96255574667638938]}}]
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 53117
+  neighbours:
+2023-02-15 01:11:15 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_swc_store_sup_meta8}
+     Context:    start_error
+     Reason:     {db_open,"IO error: lock ./data/swc_meta/meta8/LOCK: Resource temporarily unavailable"}
+     Offender:   [{pid,undefined},{id,{vmq_swc_db_leveldb,meta8}},{mfargs,{vmq_swc_db_leveldb,start_link,[{swc_config,{'VerneMQ@127.0.0.1',<<239,174,60,145,53,39,215,115,159,70,176,124,80,197,199,248,97,198,2,60>>},meta8,vmq_swc_db_meta8,vmq_swc_db_leveldb,vmq_swc_store_meta8,vmq_swc_store_r_o_w_meta8,vmq_swc_store_batcher_meta8,vmq_swc_group_membership_meta8,vmq_swc_edist_srv},[]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-15 01:11:15 =CRASH REPORT====
+  crasher:
+    initial call: vmq_swc_db_leveldb:init/1
+    pid: <0.422.0>
+    registered_name: []
+    exception exit: {{db_open,"IO error: lock ./data/swc_meta/meta8/LOCK: Resource temporarily unavailable"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,835}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_swc_store_sup_meta8,vmq_swc_sup,<0.221.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.421.0>]
+    dictionary: [{rand_seed,{#{jump => #Fun<rand.3.34006561>,max => 288230376151711743,next => #Fun<rand.5.34006561>,type => exsplus},[3788270360706206|168748815297543217]}}]
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 53140
+  neighbours:
+2023-02-15 01:12:15 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_swc_store_sup_meta9}
+     Context:    start_error
+     Reason:     {db_open,"IO error: lock ./data/swc_meta/meta9/LOCK: Resource temporarily unavailable"}
+     Offender:   [{pid,undefined},{id,{vmq_swc_db_leveldb,meta9}},{mfargs,{vmq_swc_db_leveldb,start_link,[{swc_config,{'VerneMQ@127.0.0.1',<<239,174,60,145,53,39,215,115,159,70,176,124,80,197,199,248,97,198,2,60>>},meta9,vmq_swc_db_meta9,vmq_swc_db_leveldb,vmq_swc_store_meta9,vmq_swc_store_r_o_w_meta9,vmq_swc_store_batcher_meta9,vmq_swc_group_membership_meta9,vmq_swc_edist_srv},[]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-15 01:12:15 =CRASH REPORT====
+  crasher:
+    initial call: vmq_swc_db_leveldb:init/1
+    pid: <0.433.0>
+    registered_name: []
+    exception exit: {{db_open,"IO error: lock ./data/swc_meta/meta9/LOCK: Resource temporarily unavailable"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,835}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_swc_store_sup_meta9,vmq_swc_sup,<0.221.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.432.0>]
+    dictionary: [{rand_seed,{#{jump => #Fun<rand.3.34006561>,max => 288230376151711743,next => #Fun<rand.5.34006561>,type => exsplus},[2850254661157312|166863324667694336]}}]
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 53140
+  neighbours:
+2023-02-15 01:13:16 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_swc_store_sup_meta10}
+     Context:    start_error
+     Reason:     {db_open,"IO error: lock ./data/swc_meta/meta10/LOCK: Resource temporarily unavailable"}
+     Offender:   [{pid,undefined},{id,{vmq_swc_db_leveldb,meta10}},{mfargs,{vmq_swc_db_leveldb,start_link,[{swc_config,{'VerneMQ@127.0.0.1',<<239,174,60,145,53,39,215,115,159,70,176,124,80,197,199,248,97,198,2,60>>},meta10,vmq_swc_db_meta10,vmq_swc_db_leveldb,vmq_swc_store_meta10,vmq_swc_store_r_o_w_meta10,vmq_swc_store_batcher_meta10,vmq_swc_group_membership_meta10,vmq_swc_edist_srv},[]]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-15 01:13:16 =CRASH REPORT====
+  crasher:
+    initial call: vmq_swc_db_leveldb:init/1
+    pid: <0.443.0>
+    registered_name: []
+    exception exit: {{db_open,"IO error: lock ./data/swc_meta/meta10/LOCK: Resource temporarily unavailable"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,835}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_swc_store_sup_meta10,vmq_swc_sup,<0.221.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.442.0>]
+    dictionary: [{rand_seed,{#{jump => #Fun<rand.3.34006561>,max => 288230376151711743,next => #Fun<rand.5.34006561>,type => exsplus},[218522259050217335|95323460365894593]}}]
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 52223
+  neighbours:
+2023-02-15 01:14:16 =CRASH REPORT====
+  crasher:
+    initial call: vmq_generic_msg_store:init/1
+    pid: <0.458.0>
+    registered_name: []
+    exception exit: {{db_open,"IO error: lock ./data/msgstore/1/LOCK: Resource temporarily unavailable"},[{gen_server,init_it,6,[{file,"gen_server.erl"},{line,835}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_generic_msg_store_sup,<0.456.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.457.0>]
+    dictionary: [{rand_seed,{#{jump => #Fun<rand.3.34006561>,max => 288230376151711743,next => #Fun<rand.5.34006561>,type => exsplus},[73432123571982118|170629419453859144]}}]
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 51281
+  neighbours:
+2023-02-15 01:14:16 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.455.0>
+    registered_name: []
+    exception exit: {{bad_return,{{vmq_generic_msg_store_app,start,[normal,[]]},{'EXIT',{{badmatch,{error,{{db_open,"IO error: lock ./data/msgstore/1/LOCK: Resource temporarily unavailable"},{child,undefined,{vmq_generic_msg_store_bucket,1},{vmq_generic_msg_store,start_link,[1]},permanent,false,5000,worker,[vmq_generic_msg_store]}}}},[{vmq_generic_msg_store_sup,'-start_link/0-lc$^0/1-0-',2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_generic_msg_store/src/vmq_generic_msg_store_sup.erl"},{line,43}]},{vmq_generic_msg_store_sup,start_link,0,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_generic_msg_store/src/vmq_generic_msg_store_sup.erl"},{line,46}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,293}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,142}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.454.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.456.0>,normal}]
+    links: [<0.454.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 187
+  neighbours:
+2023-02-15 01:14:16 =ERROR REPORT====
+** Generic server vmq_plugin_mgr terminating 
+** Last message in was {enable_system_plugin,vmq_generic_msg_store,[internal]}
+** When Server state == {state,false,[],[{application,vmq_swc,[{hooks,[{hook,metadata_put,vmq_swc_plugin,metadata_put,3,undefined,[internal]},{hook,metadata_get,vmq_swc_plugin,metadata_get,2,undefined,[internal]},{hook,metadata_delete,vmq_swc_plugin,metadata_delete,2,undefined,[internal]},{hook,metadata_fold,vmq_swc_plugin,metadata_fold,3,undefined,[internal]},{hook,metadata_subscribe,vmq_swc_plugin,metadata_subscribe,1,undefined,[internal]},{hook,cluster_join,vmq_swc_plugin,cluster_join,1,undefined,[internal]},{hook,cluster_leave,vmq_swc_plugin,cluster_leave,1,undefined,[internal]},{hook,cluster_members,vmq_swc_plugin,cluster_members,0,undefined,[internal]},{hook,cluster_rename_member,vmq_swc_plugin,cluster_rename_member,2,undefined,[internal]},{hook,cluster_events_add_handler,vmq_swc_plugin,cluster_events_add_handler,2,undefined,[internal]},{hook,cluster_events_delete_handler,vmq_swc_plugin,cluster_events_delete_handler,2,undefined,[internal]},{hook,cluster_events_call_handler,vmq_swc_plugin,cluster_events_call_handler,3,undefined,[internal]}]},internal]}]}
+** Reason for termination ==
+** {{badmatch,{error,{vmq_generic_msg_store,{bad_return,{{vmq_generic_msg_store_app,start,[normal,[]]},{'EXIT',{{badmatch,{error,{{db_open,"IO error: lock ./data/msgstore/1/LOCK: Resource temporarily unavailable"},{child,undefined,{vmq_generic_msg_store_bucket,1},{vmq_generic_msg_store,start_link,[1]},permanent,false,5000,worker,[vmq_generic_msg_store]}}}},[{vmq_generic_msg_store_sup,'-start_link/0-lc$^0/1-0-',2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_generic_msg_store/src/vmq_generic_msg_store_sup.erl"},{line,43}]},{vmq_generic_msg_store_sup,start_link,0,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_generic_msg_store/src/vmq_generic_msg_store_sup.erl"},{line,46}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,293}]}]}}}}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,573}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+** Client <0.215.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,237}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,381}]},{vmq_message_store,start,0,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_message_store.erl"},{line,28}]},{vmq_server_app,start,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_server_app.erl"},{line,29}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,293}]}]
+2023-02-15 01:14:16 =CRASH REPORT====
+  crasher:
+    initial call: vmq_plugin_mgr:init/1
+    pid: <0.208.0>
+    registered_name: vmq_plugin_mgr
+    exception error: {{badmatch,{error,{vmq_generic_msg_store,{bad_return,{{vmq_generic_msg_store_app,start,[normal,[]]},{'EXIT',{{badmatch,{error,{{db_open,"IO error: lock ./data/msgstore/1/LOCK: Resource temporarily unavailable"},{child,undefined,{vmq_generic_msg_store_bucket,1},{vmq_generic_msg_store,start_link,[1]},permanent,false,5000,worker,[vmq_generic_msg_store]}}}},[{vmq_generic_msg_store_sup,'-start_link/0-lc$^0/1-0-',2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_generic_msg_store/src/vmq_generic_msg_store_sup.erl"},{line,43}]},{vmq_generic_msg_store_sup,start_link,0,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_generic_msg_store/src/vmq_generic_msg_store_sup.erl"},{line,46}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,293}]}]}}}}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,573}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_plugin_sup,<0.206.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.207.0>,<0.209.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 318187
+    stack_size: 28
+    reductions: 2125235
+  neighbours:
+    neighbour: [{pid,<0.209.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{timer,sleep,1}},{ancestors,[]},{message_queue_len,0},{links,[<0.208.0>]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,4},{reductions,240409},{current_stacktrace,[{timer,sleep,1,[{file,"timer.erl"},{line,219}]},{vmq_plugin_mgr,init_when_ready,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,462}]}]}]
+2023-02-15 01:14:16 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_plugin_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,{vmq_generic_msg_store,{bad_return,{{vmq_generic_msg_store_app,start,[normal,[]]},{'EXIT',{{badmatch,{error,{{db_open,"IO error: lock ./data/msgstore/1/LOCK: Resource temporarily unavailable"},{child,undefined,{vmq_generic_msg_store_bucket,1},{vmq_generic_msg_store,start_link,[1]},permanent,false,5000,worker,[vmq_generic_msg_store]}}}},[{vmq_generic_msg_store_sup,'-start_link/0-lc$^0/1-0-',2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_generic_msg_store/src/vmq_generic_msg_store_sup.erl"},{line,43}]},{vmq_generic_msg_store_sup,start_link,0,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_generic_msg_store/src/vmq_generic_msg_store_sup.erl"},{line,46}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,293}]}]}}}}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,573}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.208.0>},{id,vmq_plugin_mgr},{mfargs,{vmq_plugin_mgr,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-15 01:14:16 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.214.0>
+    registered_name: []
+    exception exit: {{bad_return,{{vmq_server_app,start,[normal,[]]},{'EXIT',{{{badmatch,{error,{vmq_generic_msg_store,{bad_return,{{vmq_generic_msg_store_app,start,[normal,[]]},{'EXIT',{{badmatch,{error,{{db_open,"IO error: lock ./data/msgstore/1/LOCK: Resource temporarily unavailable"},{child,undefined,{vmq_generic_msg_store_bucket,1},{vmq_generic_msg_store,start_link,[1]},permanent,false,5000,worker,[vmq_generic_msg_store]}}}},[{vmq_generic_msg_store_sup,'-start_link/0-lc$^0/1-0-',2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_generic_msg_store/src/vmq_generic_msg_store_sup.erl"},{line,43}]},{vmq_generic_msg_store_sup,start_link,0,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_generic_msg_store/src/vmq_generic_msg_store_sup.erl"},{line,46}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,293}]}]}}}}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,573}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},{gen_server,call,[vmq_plugin_mgr,{enable_system_plugin,vmq_generic_msg_store,[internal]},infinity]}}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,142}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [<0.213.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.215.0>,normal}]
+    links: [<0.213.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 28
+    reductions: 166
+  neighbours:
+2023-02-16 21:16:27 =ERROR REPORT====
+** Generic server vmq_plugin_mgr terminating 
+** Last message in was {enable_plugin,my_vernemq_plugin,[{path,"/Users/tejarammurthykarri/my_vernemq_plugin/_build/dev"}]}
+** When Server state == {state,true,[],[{application,vmq_swc,[{hooks,[{hook,metadata_put,vmq_swc_plugin,metadata_put,3,undefined,[internal]},{hook,metadata_get,vmq_swc_plugin,metadata_get,2,undefined,[internal]},{hook,metadata_delete,vmq_swc_plugin,metadata_delete,2,undefined,[internal]},{hook,metadata_fold,vmq_swc_plugin,metadata_fold,3,undefined,[internal]},{hook,metadata_subscribe,vmq_swc_plugin,metadata_subscribe,1,undefined,[internal]},{hook,cluster_join,vmq_swc_plugin,cluster_join,1,undefined,[internal]},{hook,cluster_leave,vmq_swc_plugin,cluster_leave,1,undefined,[internal]},{hook,cluster_members,vmq_swc_plugin,cluster_members,0,undefined,[internal]},{hook,cluster_rename_member,vmq_swc_plugin,cluster_rename_member,2,undefined,[internal]},{hook,cluster_events_add_handler,vmq_swc_plugin,cluster_events_add_handler,2,undefined,[internal]},{hook,cluster_events_delete_handler,vmq_swc_plugin,cluster_events_delete_handler,2,undefined,[internal]},{hook,cluster_events_call_handler,vmq_swc_plugin,cluster_events_call_handler,3,undefined,[internal]}]},{hooks,[{hook,metadata_put,vmq_swc_plugin,metadata_put,3,undefined,[internal]},{hook,metadata_get,vmq_swc_plugin,metadata_get,2,undefined,[internal]},{hook,metadata_delete,vmq_swc_plugin,metadata_delete,2,undefined,[internal]},{hook,metadata_fold,vmq_swc_plugin,metadata_fold,3,undefined,[internal]},{hook,metadata_subscribe,vmq_swc_plugin,metadata_subscribe,1,undefined,[internal]},{hook,cluster_join,vmq_swc_plugin,cluster_join,1,undefined,[internal]},{hook,cluster_leave,vmq_swc_plugin,cluster_leave,1,undefined,[internal]},{hook,cluster_members,vmq_swc_plugin,cluster_members,0,undefined,[internal]},{hook,cluster_rename_member,vmq_swc_plugin,cluster_rename_member,2,undefined,[internal]},{hook,cluster_events_add_handler,vmq_swc_plugin,cluster_events_add_handler,2,undefined,[internal]},{hook,cluster_events_delete_handler,vmq_swc_plugin,cluster_events_delete_handler,2,undefined,[internal]},{hook,cluster_events_call_handler,vmq_swc_plugin,cluster_events_call_handler,3,undefined,[internal]}]},{hooks,[{hook,metadata_put,vmq_swc_plugin,metadata_put,3,undefined,[internal]},{hook,metadata_get,vmq_swc_plugin,metadata_get,2,undefined,[internal]},{hook,metadata_delete,vmq_swc_plugin,metadata_delete,2,undefined,[internal]},{hook,metadata_fold,vmq_swc_plugin,metadata_fold,3,undefined,[internal]},{hook,metadata_subscribe,vmq_swc_plugin,metadata_subscribe,1,undefined,[internal]},{hook,cluster_join,vmq_swc_plugin,cluster_join,1,undefined,[internal]},{hook,cluster_leave,vmq_swc_plugin,cluster_leave,1,undefined,[internal]},{hook,cluster_members,vmq_swc_plugin,cluster_members,0,undefined,[internal]},{hook,cluster_rename_member,vmq_swc_plugin,cluster_rename_member,2,undefined,[internal]},{hook,cluster_events_add_handler,vmq_swc_plugin,cluster_events_add_handler,2,undefined,[internal]},{hook,cluster_events_delete_handler,vmq_swc_plugin,cluster_events_delete_handler,2,undefined,[internal]},{hook,cluster_events_call_handler,vmq_swc_plugin,cluster_events_call_handler,3,undefined,[internal]}]},{hooks,[{hook,metadata_put,vmq_swc_plugin,metadata_put,3,undefined,[internal]},{hook,metadata_get,vmq_swc_plugin,metadata_get,2,undefined,[internal]},{hook,metadata_delete,vmq_swc_plugin,metadata_delete,2,undefined,[internal]},{hook,metadata_fold,vmq_swc_plugin,metadata_fold,3,undefined,[internal]},{hook,metadata_subscribe,vmq_swc_plugin,metadata_subscribe,1,undefined,[internal]},{hook,cluster_join,vmq_swc_plugin,cluster_join,1,undefined,[internal]},{hook,cluster_leave,vmq_swc_plugin,cluster_leave,1,undefined,[internal]},{hook,cluster_members,vmq_swc_plugin,cluster_members,0,undefined,[internal]},{hook,cluster_rename_member,vmq_swc_plugin,cluster_rename_member,2,undefined,[internal]},{hook,cluster_events_add_handler,vmq_swc_plugin,cluster_events_add_handler,2,undefined,[internal]},{hook,cluster_events_delete_handler,vmq_swc_plugin,cluster_events_delete_handler,2,undefined,[internal]},{hook,cluster_events_call_handler,vmq_swc_plugin,cluster_events_call_handler,3,undefined,[internal]}]},internal]},{application,vmq_generic_msg_store,[{hooks,[{hook,msg_store_write,vmq_generic_msg_store,msg_store_write,2,undefined,[internal]},{hook,msg_store_delete,vmq_generic_msg_store,msg_store_delete,2,undefined,[internal]},{hook,msg_store_find,vmq_generic_msg_store,msg_store_find,2,undefined,[internal]},{hook,msg_store_read,vmq_generic_msg_store,msg_store_read,2,undefined,[internal]}]},{hooks,[{hook,msg_store_write,vmq_generic_msg_store,msg_store_write,2,undefined,[internal]},{hook,msg_store_delete,vmq_generic_msg_store,msg_store_delete,2,undefined,[internal]},{hook,msg_store_find,vmq_generic_msg_store,msg_store_find,2,undefined,[internal]},{hook,msg_store_read,vmq_generic_msg_store,msg_store_read,2,undefined,[internal]}]},{hooks,[{hook,msg_store_write,vmq_generic_msg_store,msg_store_write,2,undefined,[internal]},{hook,msg_store_delete,vmq_generic_msg_store,msg_store_delete,2,undefined,[internal]},{hook,msg_store_find,vmq_generic_msg_store,msg_store_find,2,undefined,[internal]},{hook,msg_store_read,vmq_generic_msg_store,msg_store_read,2,undefined,[internal]}]},internal]},{module,vmq_config,[{hooks,[{hook,change_config,vmq_config,change_config,1,undefined,[]}]}]},{application,vmq_acl,[{hooks,[{hook,change_config,vmq_acl,change_config,1,undefined,[internal]},{hook,auth_on_publish,vmq_acl,auth_on_publish,6,undefined,[]},{hook,auth_on_subscribe,vmq_acl,auth_on_subscribe,3,undefined,[]},{hook,auth_on_publish_m5,vmq_acl,auth_on_publish_m5,7,undefined,[]},{hook,auth_on_subscribe_m5,vmq_acl,auth_on_subscribe_m5,4,undefined,[]}]}]}]}
+** Reason for termination ==
+** {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+** Client <0.603.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,237}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,381}]},{vmq_plugin_cli,'-vmq_plugin_enable_cmd/0-fun-0-',3,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_cli.erl"},{line,230}]},{clique_command,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique_command.erl"},{line,87}]},{clique,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique.erl"},{line,130}]},{erpc,execute_call,4,[{file,"erpc.erl"},{line,589}]}]
+2023-02-16 21:16:27 =CRASH REPORT====
+  crasher:
+    initial call: vmq_plugin_mgr:init/1
+    pid: <0.208.0>
+    registered_name: vmq_plugin_mgr
+    exception error: {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_plugin_sup,<0.206.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.207.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 196650
+    stack_size: 28
+    reductions: 5450535
+  neighbours:
+2023-02-16 21:16:27 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_plugin_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.208.0>},{id,vmq_plugin_mgr},{mfargs,{vmq_plugin_mgr,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 21:17:29 =ERROR REPORT====
+** Generic server vmq_plugin_mgr terminating 
+** Last message in was {enable_plugin,my_vernemq_plugin,[{path,"/Users/tejarammurthykarri/my_vernemq_plugin/_build/dev"}]}
+** When Server state == {state,true,[],[]}
+** Reason for termination ==
+** {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+** Client <0.616.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,237}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,381}]},{vmq_plugin_cli,'-vmq_plugin_enable_cmd/0-fun-0-',3,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_cli.erl"},{line,230}]},{clique_command,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique_command.erl"},{line,87}]},{clique,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique.erl"},{line,130}]},{erpc,execute_call,4,[{file,"erpc.erl"},{line,589}]}]
+2023-02-16 21:17:29 =CRASH REPORT====
+  crasher:
+    initial call: vmq_plugin_mgr:init/1
+    pid: <0.604.0>
+    registered_name: vmq_plugin_mgr
+    exception error: {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_plugin_sup,<0.206.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.207.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 318187
+    stack_size: 28
+    reductions: 1031998
+  neighbours:
+2023-02-16 21:17:29 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_plugin_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.604.0>},{id,vmq_plugin_mgr},{mfargs,{vmq_plugin_mgr,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 21:20:37 =ERROR REPORT====
+** Generic server vmq_plugin_mgr terminating 
+** Last message in was {enable_plugin,my_vernemq_plugin,[{path,"/Users/tejarammurthykarri/my_vernemq_plugin/_build/dev"}]}
+** When Server state == {state,true,[],[]}
+** Reason for termination ==
+** {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+** Client <0.641.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,237}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,381}]},{vmq_plugin_cli,'-vmq_plugin_enable_cmd/0-fun-0-',3,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_cli.erl"},{line,230}]},{clique_command,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique_command.erl"},{line,87}]},{clique,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique.erl"},{line,130}]},{erpc,execute_call,4,[{file,"erpc.erl"},{line,589}]}]
+2023-02-16 21:20:37 =CRASH REPORT====
+  crasher:
+    initial call: vmq_plugin_mgr:init/1
+    pid: <0.617.0>
+    registered_name: vmq_plugin_mgr
+    exception error: {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_plugin_sup,<0.206.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.207.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 318187
+    stack_size: 28
+    reductions: 1032224
+  neighbours:
+2023-02-16 21:20:37 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_plugin_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.617.0>},{id,vmq_plugin_mgr},{mfargs,{vmq_plugin_mgr,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 21:29:57 =ERROR REPORT====
+** Generic server vmq_plugin_mgr terminating 
+** Last message in was {enable_plugin,my_vernemq_plugin,[{path,"/Users/tejarammurthykarri/Desktop/plugin/my_vernemq_plugin/_build/dev"}]}
+** When Server state == {state,true,[],[]}
+** Reason for termination ==
+** {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+** Client <0.705.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,237}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,381}]},{vmq_plugin_cli,'-vmq_plugin_enable_cmd/0-fun-0-',3,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_cli.erl"},{line,230}]},{clique_command,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique_command.erl"},{line,87}]},{clique,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique.erl"},{line,130}]},{erpc,execute_call,4,[{file,"erpc.erl"},{line,589}]}]
+2023-02-16 21:29:57 =CRASH REPORT====
+  crasher:
+    initial call: vmq_plugin_mgr:init/1
+    pid: <0.642.0>
+    registered_name: vmq_plugin_mgr
+    exception error: {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_plugin_sup,<0.206.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.207.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 318187
+    stack_size: 28
+    reductions: 1038855
+  neighbours:
+2023-02-16 21:29:57 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_plugin_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.642.0>},{id,vmq_plugin_mgr},{mfargs,{vmq_plugin_mgr,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 21:34:51 =ERROR REPORT====
+** Generic server vmq_plugin_mgr terminating 
+** Last message in was {enable_plugin,my_vernemq_plugin,[{path,"/Users/tejarammurthykarri/Desktop/plugin/my_vernemq_plugin/_build/dev/"}]}
+** When Server state == {state,true,[],[]}
+** Reason for termination ==
+** {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+** Client <0.744.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,237}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,381}]},{vmq_plugin_cli,'-vmq_plugin_enable_cmd/0-fun-0-',3,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_cli.erl"},{line,230}]},{clique_command,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique_command.erl"},{line,87}]},{clique,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique.erl"},{line,130}]},{erpc,execute_call,4,[{file,"erpc.erl"},{line,589}]}]
+2023-02-16 21:34:51 =CRASH REPORT====
+  crasher:
+    initial call: vmq_plugin_mgr:init/1
+    pid: <0.706.0>
+    registered_name: vmq_plugin_mgr
+    exception error: {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_plugin_sup,<0.206.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.207.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 196650
+    stack_size: 28
+    reductions: 1038123
+  neighbours:
+2023-02-16 21:34:51 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_plugin_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.706.0>},{id,vmq_plugin_mgr},{mfargs,{vmq_plugin_mgr,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 21:40:58 =ERROR REPORT====
+** Generic server vmq_plugin_mgr terminating 
+** Last message in was {enable_plugin,my_vernemq_plugin,[{path,"/Users/tejarammurthykarri/Desktop/plugin/my_vernemq_plugin/_build/dev/"}]}
+** When Server state == {state,true,[],[]}
+** Reason for termination ==
+** {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+** Client <0.788.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,237}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,381}]},{vmq_plugin_cli,'-vmq_plugin_enable_cmd/0-fun-0-',3,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_cli.erl"},{line,230}]},{clique_command,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique_command.erl"},{line,87}]},{clique,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique.erl"},{line,130}]},{erpc,execute_call,4,[{file,"erpc.erl"},{line,589}]}]
+2023-02-16 21:40:58 =CRASH REPORT====
+  crasher:
+    initial call: vmq_plugin_mgr:init/1
+    pid: <0.745.0>
+    registered_name: vmq_plugin_mgr
+    exception error: {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_plugin_sup,<0.206.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.207.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 196650
+    stack_size: 28
+    reductions: 1038452
+  neighbours:
+2023-02-16 21:40:58 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_plugin_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.745.0>},{id,vmq_plugin_mgr},{mfargs,{vmq_plugin_mgr,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 21:56:32 =ERROR REPORT====
+** Generic server vmq_plugin_mgr terminating 
+** Last message in was {enable_plugin,my_vernemq_plugin,[{path,"/Users/tejarammurthykarri/my_vernemq_plugin/_build/dev"}]}
+** When Server state == {state,true,[],[]}
+** Reason for termination ==
+** {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+** Client <0.897.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,237}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,381}]},{vmq_plugin_cli,'-vmq_plugin_enable_cmd/0-fun-0-',3,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_cli.erl"},{line,230}]},{clique_command,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique_command.erl"},{line,87}]},{clique,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique.erl"},{line,130}]},{erpc,execute_call,4,[{file,"erpc.erl"},{line,589}]}]
+2023-02-16 21:56:32 =CRASH REPORT====
+  crasher:
+    initial call: vmq_plugin_mgr:init/1
+    pid: <0.789.0>
+    registered_name: vmq_plugin_mgr
+    exception error: {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_plugin_sup,<0.206.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.207.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 318187
+    stack_size: 28
+    reductions: 1032213
+  neighbours:
+2023-02-16 21:56:32 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_plugin_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.789.0>},{id,vmq_plugin_mgr},{mfargs,{vmq_plugin_mgr,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 21:56:35 =ERROR REPORT====
+** Generic server vmq_plugin_mgr terminating 
+** Last message in was {enable_plugin,my_vernemq_plugin,[{path,"/Users/tejarammurthykarri/my_vernemq_plugin/_build/dev/"}]}
+** When Server state == {state,true,[],[]}
+** Reason for termination ==
+** {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+** Client <0.902.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,237}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,381}]},{vmq_plugin_cli,'-vmq_plugin_enable_cmd/0-fun-0-',3,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_cli.erl"},{line,230}]},{clique_command,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique_command.erl"},{line,87}]},{clique,run,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/clique/src/clique.erl"},{line,130}]},{erpc,execute_call,4,[{file,"erpc.erl"},{line,589}]}]
+2023-02-16 21:56:35 =CRASH REPORT====
+  crasher:
+    initial call: vmq_plugin_mgr:init/1
+    pid: <0.898.0>
+    registered_name: vmq_plugin_mgr
+    exception error: {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_plugin_sup,<0.206.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.207.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 196650
+    stack_size: 28
+    reductions: 1030827
+  neighbours:
+2023-02-16 21:56:35 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_plugin_sup}
+     Context:    child_terminated
+     Reason:     {{badmatch,{error,{elixir,{"no such file or directory","elixir.app"}}}},[{vmq_plugin_mgr,start_plugin,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,576}]},{vmq_plugin_mgr,start_plugins,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,550}]},{vmq_plugin_mgr,check_updated_plugins,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,491}]},{vmq_plugin_mgr,handle_plugin_call,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_plugin/src/vmq_plugin_mgr.erl"},{line,262}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,1149}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1178}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.898.0>},{id,vmq_plugin_mgr},{mfargs,{vmq_plugin_mgr,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 23:23:31 =ERROR REPORT====
+** Generic server vmq_retain_srv terminating
+** Last message in was persist
+** When Server state == {state}
+** Reason for termination == 
+** {{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,handle_info,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,224}]},{gen_server2,handle_msg,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,1032}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+2023-02-16 23:23:31 =CRASH REPORT====
+  crasher:
+    initial call: vmq_retain_srv:init/1
+    pid: <0.417.0>
+    registered_name: vmq_retain_srv
+    exception exit: {{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,handle_info,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,224}]},{gen_server2,handle_msg,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,1032}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server2,terminate,3,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,1143}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_reg_sup,vmq_server_sup,<0.215.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.410.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 298459
+  neighbours:
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_reg_sup}
+     Context:    child_terminated
+     Reason:     {{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,handle_info,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,224}]},{gen_server2,handle_msg,2,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,1032}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.417.0>},{id,vmq_retain_srv},{mfargs,{vmq_retain_srv,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_reg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,<0.417.0>},{id,vmq_retain_srv},{mfargs,{vmq_retain_srv,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 23:23:31 =CRASH REPORT====
+  crasher:
+    initial call: vmq_retain_srv:init/1
+    pid: <0.1146.0>
+    registered_name: []
+    exception exit: {{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,586}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_reg_sup,vmq_server_sup,<0.215.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.410.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_reg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,{restarting,<0.417.0>}},{id,vmq_retain_srv},{mfargs,{vmq_retain_srv,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 23:23:31 =CRASH REPORT====
+  crasher:
+    initial call: vmq_retain_srv:init/1
+    pid: <0.1147.0>
+    registered_name: []
+    exception exit: {{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,586}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_reg_sup,vmq_server_sup,<0.215.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.410.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_reg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,{restarting,<0.417.0>}},{id,vmq_retain_srv},{mfargs,{vmq_retain_srv,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 23:23:31 =CRASH REPORT====
+  crasher:
+    initial call: vmq_retain_srv:init/1
+    pid: <0.1148.0>
+    registered_name: []
+    exception exit: {{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,586}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_reg_sup,vmq_server_sup,<0.215.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.410.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_reg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,{restarting,<0.417.0>}},{id,vmq_retain_srv},{mfargs,{vmq_retain_srv,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 23:23:31 =CRASH REPORT====
+  crasher:
+    initial call: vmq_retain_srv:init/1
+    pid: <0.1149.0>
+    registered_name: []
+    exception exit: {{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,586}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_reg_sup,vmq_server_sup,<0.215.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.410.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_reg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,{restarting,<0.417.0>}},{id,vmq_retain_srv},{mfargs,{vmq_retain_srv,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_reg_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,{restarting,<0.417.0>}},{id,vmq_retain_srv},{mfargs,{vmq_retain_srv,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 23:23:31 =CRASH REPORT====
+  crasher:
+    initial call: vmq_retain_srv:init/1
+    pid: <0.1150.0>
+    registered_name: []
+    exception exit: {{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,586}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_reg_sup,vmq_server_sup,<0.215.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.410.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_server_sup}
+     Context:    child_terminated
+     Reason:     shutdown
+     Offender:   [{pid,<0.410.0>},{id,vmq_reg_sup},{mfargs,{vmq_reg_sup,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,supervisor}]
+
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_reg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,undefined},{id,vmq_retain_srv},{mfargs,{vmq_retain_srv,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 23:23:31 =CRASH REPORT====
+  crasher:
+    initial call: vmq_retain_srv:init/1
+    pid: <0.1154.0>
+    registered_name: []
+    exception exit: {{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,586}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_reg_sup,vmq_server_sup,<0.215.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.1151.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_server_sup}
+     Context:    start_error
+     Reason:     {'EXIT',{{badmatch,{error,{shutdown,{failed_to_start_child,vmq_retain_srv,{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}}}},[{vmq_reg_sup,start_link,0,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_reg_sup.erl"},{line,44}]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,414}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,400}]},{supervisor,restart,3,[{file,"supervisor.erl"},{line,837}]},{supervisor,restart,2,[{file,"supervisor.erl"},{line,792}]},{supervisor,handle_info,2,[{file,"supervisor.erl"},{line,609}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,1123}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1200}]}]}}
+     Offender:   [{pid,<0.410.0>},{id,vmq_reg_sup},{mfargs,{vmq_reg_sup,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,supervisor}]
+
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_reg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,undefined},{id,vmq_retain_srv},{mfargs,{vmq_retain_srv,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 23:23:31 =CRASH REPORT====
+  crasher:
+    initial call: vmq_retain_srv:init/1
+    pid: <0.1158.0>
+    registered_name: []
+    exception exit: {{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,586}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_reg_sup,vmq_server_sup,<0.215.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.1155.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_server_sup}
+     Context:    start_error
+     Reason:     {'EXIT',{{badmatch,{error,{shutdown,{failed_to_start_child,vmq_retain_srv,{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}}}},[{vmq_reg_sup,start_link,0,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_reg_sup.erl"},{line,44}]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,414}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,400}]},{supervisor,restart,3,[{file,"supervisor.erl"},{line,837}]},{supervisor,restart,2,[{file,"supervisor.erl"},{line,792}]},{supervisor,handle_cast,2,[{file,"supervisor.erl"},{line,592}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,1123}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1200}]}]}}
+     Offender:   [{pid,{restarting,<0.410.0>}},{id,vmq_reg_sup},{mfargs,{vmq_reg_sup,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,supervisor}]
+
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_reg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,undefined},{id,vmq_retain_srv},{mfargs,{vmq_retain_srv,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 23:23:31 =CRASH REPORT====
+  crasher:
+    initial call: vmq_retain_srv:init/1
+    pid: <0.1162.0>
+    registered_name: []
+    exception exit: {{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,586}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_reg_sup,vmq_server_sup,<0.215.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.1159.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_server_sup}
+     Context:    start_error
+     Reason:     {'EXIT',{{badmatch,{error,{shutdown,{failed_to_start_child,vmq_retain_srv,{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}}}},[{vmq_reg_sup,start_link,0,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_reg_sup.erl"},{line,44}]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,414}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,400}]},{supervisor,restart,3,[{file,"supervisor.erl"},{line,837}]},{supervisor,restart,2,[{file,"supervisor.erl"},{line,792}]},{supervisor,handle_cast,2,[{file,"supervisor.erl"},{line,592}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,1123}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1200}]}]}}
+     Offender:   [{pid,{restarting,<0.410.0>}},{id,vmq_reg_sup},{mfargs,{vmq_reg_sup,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,supervisor}]
+
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_reg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,undefined},{id,vmq_retain_srv},{mfargs,{vmq_retain_srv,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 23:23:31 =CRASH REPORT====
+  crasher:
+    initial call: vmq_retain_srv:init/1
+    pid: <0.1166.0>
+    registered_name: []
+    exception exit: {{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,586}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_reg_sup,vmq_server_sup,<0.215.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.1163.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_server_sup}
+     Context:    start_error
+     Reason:     {'EXIT',{{badmatch,{error,{shutdown,{failed_to_start_child,vmq_retain_srv,{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}}}}},[{vmq_reg_sup,start_link,0,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_reg_sup.erl"},{line,44}]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,414}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,400}]},{supervisor,restart,3,[{file,"supervisor.erl"},{line,837}]},{supervisor,restart,2,[{file,"supervisor.erl"},{line,792}]},{supervisor,handle_cast,2,[{file,"supervisor.erl"},{line,592}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,1123}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,1200}]}]}}
+     Offender:   [{pid,{restarting,<0.410.0>}},{id,vmq_reg_sup},{mfargs,{vmq_reg_sup,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,supervisor}]
+
+2023-02-16 23:23:31 =SUPERVISOR REPORT====
+     Supervisor: {local,vmq_reg_sup}
+     Context:    start_error
+     Reason:     {{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+     Offender:   [{pid,undefined},{id,vmq_retain_srv},{mfargs,{vmq_retain_srv,start_link,[]}},{restart_type,permanent},{significant,false},{shutdown,5000},{child_type,worker}]
+
+2023-02-16 23:23:31 =CRASH REPORT====
+  crasher:
+    initial call: vmq_retain_srv:init/1
+    pid: <0.1170.0>
+    registered_name: []
+    exception exit: {{{case_clause,{error,no_matching_hook_found}},[{vmq_config,get_env,4,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_config.erl"},{line,111}]},{vmq_retain_srv,init,1,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/apps/vmq_server/src/vmq_retain_srv.erl"},{line,168}]},{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,544}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]},[{gen_server2,init_it,6,[{file,"/Users/tejarammurthykarri/Desktop/vernemq/_build/default/lib/gen_server2/src/gen_server2.erl"},{line,586}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,240}]}]}
+    ancestors: [vmq_reg_sup,vmq_server_sup,<0.215.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.1167.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
